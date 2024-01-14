@@ -1,0 +1,48 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Signing In</title>
+  <link href="signup.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body>
+
+
+  <h1 class = "gradient-text"><b>Welcome To Safe Space</b></h1>
+  <p>
+    <center>Glad you're joining us!</center>
+    <center>Please remember to use a different password and not ones you've used on other websites! </center>
+
+  </p>
+  <div class="signUpInput">
+
+    <center><input type="text" id="your_email" placeholder="Enter your email"> </center>
+    <br>
+    <center> <input type="text" id="your_username" placeholder="Enter your username"> </center>
+    <br>
+    <center> <input type="text" id="your_password" placeholder="Enter your password"> </center>
+    <center><button id="signupButton">SignUp</button> </center>
+    <script>
+    const myButton = document.getElementById('signupButton')
+
+    myButton.addEventListener('click', () => {
+    // Call the function that performs the desired action
+    signUp()
+    })
+    </script>
+    <center>
+      <p>Already a community member? <a href="index.html">log in </a></p>
+
+      <img src="safe space media/Brains - instagram post.png" alt="Talking about it helps graphic" width="500"
+        height="500">
+    </center> <!-- takes to signup page-->
+  </div>
+
+
+
+  <script src="server.js"></script>
+  <!--src="server.js": This attribute specifies the source (URL) of the JavaScript file that you want to include. In this case, the source is set to "server.js." This means that the browser will try to load and execute the JavaScript code from the file named "server.js." -->
+
+
+</body>

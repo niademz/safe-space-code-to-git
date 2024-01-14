@@ -1,0 +1,25 @@
+
+
+for the sign up page we should research how that gmail part works life if statements code: "if input doesn't have valid email service then error message highlight box red" stuff like that
+
+----------------------------------------
+
+<p><input type="text" id="your_password" placeholder="Enter your password"></p> this code explanation  v
+<input>: This is an HTML element used to create various types of input fields, such as text boxes, radio buttons, checkboxes, etc. In this case, it's used to create a text input field.
+
+type="text": This attribute specifies the type of input field that is being created. In this case, the type is set to "text," which means it will create a single-line text input field where users can enter plain text.
+
+id="your_username": This attribute assigns an identifier (ID) to the input field. IDs are used to uniquely identify HTML elements, and they must be unique within the HTML document. In this case, the ID is set to "your_username."
+
+placeholder="Enter your username": This attribute provides a placeholder text that is displayed inside the input field before the user enters any text. It serves as a visual hint to users about what kind of information is expected. In this case, the placeholder text is "Enter your username."  ^
+
+----------------------------
+
+*Hex Codes for website*
+
+
+------------------------------------------
+
+*Fonts for website*
+-font from logo
+- the handwriting one 

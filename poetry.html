@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Poetry!!</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <title>Mental Health Chat</title>
+  <style>
+    /* Add this CSS to your style.css file or within a <style> tag in the <head> section */
+    .chat-container {
+      display: flex;
+      flex-direction: column;
+      min-height: 80vh;
+      /* Full height of the viewport */
+      width: 70vw;
+      margin: auto; /* Center horizontally */
+      overflow: auto; /* Enable scrolling for overflow content */
+    justify-content: center; /* Center horizontally */
+      
+    }
+        .poem-container {
+      overflow: auto; /* Enable scrolling for overflow content */
+  line-height: 0.95; /* Adjust the line height to your preference */
+}
+  </style>
+</head>
+
+<body>
+ <div class="topnav">
+      <a class="active" href="homepage.html">home</a>
+      <a href="resources.html">resources</a>
+      <a href="chat.html">chat rooms</a>
+      <a href="affirmationNation.html?chatroom= affirmationslaytion">affirmation nation</a>
+      <a href="poetry.html">Muse's Melody</a>
+      <a href="music.html">Relaxing Music</a>
+
+
+
+    </div>
+  
+  <strong><center>✨️Muse's Melody✨️</center></strong>
+  
+  <div class="chat-container">
+    <div class="poem-container">
+
+    
+    </div>
+  </div>
+  <center><button id="nextPoem">Next Poem</button></center>
+  <p><center>Want to show your poem? <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUtMuixGn-cH4pvw6sFURC9FyiM7aHbZfCan9PFoThhEsLmQ/viewform?usp=sf_link">Submit here!</a></center></p>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="poetry.js"></script>
+</body>
+
+</html>

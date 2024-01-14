@@ -1,0 +1,61 @@
+/*welcome page styling*/
+
+body {
+  background-image: url("safe space media/website layout.png");
+  background-size: cover;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+/*centering text on page horizontally and vertically*/
+.parent {
+  display: flex;
+  flex-direction: column;
+  /*stacks h1, h2 and button vertically*/
+  align-items: center;
+  height: 100vh;
+
+  /*covers the whole page*/
+  background-repeat: no-repeat;
+  /* so the image doesn't repeat*/
+  background-position: center;
+
+}
+
+.start {
+  /*class for button on the first page*/
+  margin-top: 20px;
+  /*yes! needed to put the button in a div for this to work! oonsk oonsk oonsk! */
+  color: white;
+  background: #bb93d7;
+  font-family: 'Poppins', sans-serif;
+  border-color: white;
+  font-size: 25px;
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  /* Adjust the border radius for the rounded corners */
+  cursor: pointer;
+  /*changes cursor to hovering hand when over the button*/
+  text-decoration: none;
+  /* Remove default underline from the link */
+}
+
+/* css gradient*/
+.gradient-text {
+  background-image: linear-gradient(to right, #ff00cc, #3333ff);
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent;
+  font-size: 36px;
+  font-family: "Arial", sans-serif;
+
+}
+
+.h2{
+     font-family: "Arial", sans-serif;
+}

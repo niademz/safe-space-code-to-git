@@ -1,0 +1,95 @@
+ body {
+   background-image: url('safe space media/website layout.png');
+   background-size: cover;
+   /* This ensures the image covers the entire background */
+   background-repeat: repeat;
+   /* Prevent the image from repeating */
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   color: black;
+   height: 100vh;
+
+ }
+
+  
+ h1 {
+   font-family: "Arial", sans-serif;
+   text-align: center;
+   color: black;
+ }
+
+ button {
+   display: block;
+   margin-top: 10px;
+   padding: 8px;
+   background-color: #4f5254;
+   color: white;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+ }
+
+ input[type="text"] {
+   width: 40%;
+   padding: 8px;
+   margin-top: 10px;
+   border: 1px solid #ccc;
+   border-radius: 3px;
+ }
+
+ /* unvisited link */
+ a:link {
+   color: #ea7186;
+ }
+
+ /* visited link */
+ a:visited {
+   color: #7a77b9;
+ }
+
+ /* mouse over link */
+ a:hover {
+   color: #166a60;
+ }
+
+ /* selected link */
+ a:active {
+   color: blue;
+ }
+
+ .table {
+   margin-left: auto;
+   margin-right: auto;
+   border-spacing: 30px;
+ }
+
+ .row1 {
+   /*border: 2px solid black;*/
+   width: 300px;
+   height: 300px;
+ }
+
+ .row2 {
+   /*border: 2px solid black;*/
+   width: 100px;
+   height: 30px;
+   text-align: center;
+   font-size: 25px;
+   font-family: URW Chancery L, cursive;
+ }
+
+ .row3 {
+   /*border: 2px solid black;*/
+   width: 300px;
+   height: 300px;
+ }
+
+ .row4 {
+   /*border: 2px solid black;*/
+   width: 100px;
+   height: 30px;
+   text-align: center;
+   font-size: 25px;
+   font-family: URW Chancery L, cursive;
+ }

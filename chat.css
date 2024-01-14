@@ -1,0 +1,76 @@
+body {
+   background-image: url('safe space media/website layout.png');
+   background-size: cover;
+   /* This ensures the image covers the entire background */
+   background-repeat: repeat;
+   
+   margin: 0;
+   padding: 0;
+   color: black;
+   height: 100vh;
+
+ }
+
+
+/*-- navigation bar styling starts here */
+.topnav {
+  background-color: #bb93d7;
+  overflow: hidden;
+  display: flex;
+  width: 100%; /*makes sure it spans the full width */
+  padding: 0;
+  margin: 0;
+}
+
+
+/* styles the welcome banner */
+.banner {
+  background-color: #bb93d7;
+  display: flex;
+  width: 100%; /*makes sure it spans the full width */
+  height: 80px;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  color: #ffffff;
+  font-size: 50px;
+  font-family: URW Chancery L, cursive;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: URW Chancery L, cursive;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ffffff;
+  color: #bb93d7;
+}
+
+/* Add a color to the active/current link */
+.topnav.active {
+  background-color: #442e4d;
+  color: white;
+}
+/* end of navigation bar styling >>> */
+
+ .row2 {
+   /*border: 2px solid black;*/
+   width: 100px;
+   height: 30px;
+   text-align: center;
+   font-size: 25px;
+   font-family: URW Chancery L, cursive;
+ }
+  
+.h1{
+     font-family: URW Chancery L, cursive;
+
+}

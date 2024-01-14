@@ -1,0 +1,98 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* it wasn't covering the full page but default padding/margin was the problem */
+  background: linear-gradient(-45deg, #a614db, #782895, #442e4d);
+  color: #ffffff;
+
+
+}
+
+
+
+/*-- navigation bar styling starts here */
+.topnav {
+  background-color: #bb93d7;
+  overflow: hidden;
+  /* display: flex;
+  width: 100%; /*makes sure it spans the full width */
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: URW Chancery L, cursive;
+  flex: 1;
+  display: flex;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ffffff;
+  color: #bb93d7;
+}
+
+/* Add a color to the active/current link */
+.topnav.active {
+  background-color: #442e4d;
+  color: white;
+}
+
+/* end of navigation bar styling >>> */
+
+
+.gradient {
+  width: 100vw;
+  height: 100vh;
+  /* this makes sure the gradient stays true to whatever the screen size is*/
+  z-index: -1;
+  animation: moveGradient 10s linear infinite;
+}
+
+/* This is the code for the annimation*/
+
+@keyframes moveGradient {
+  0% {
+    background: linear-gradient(-45deg, #a614db, #782895, #442e4d);
+    background-size: 600% 600%;
+    /* Increased size = more noticeable */
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background: linear-gradient(-45deg, #442e4d, #782895, #a614db);
+    /* tried to flip it around on the second one because it was showing the shocking colour change. yeah It looks less shocking :p*/
+    background-size: 400% 400%;
+    background-position: 100% 50%;
+  }
+}
+
+/* Styles for the leaderboard */
+.leaderboard {
+  margin-top: 20px;
+  /* Adjust as needed */
+  z-index: 1;
+}
+
+.leaderboard h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.leaderboard ol {
+  list-style: none;
+  padding: 0;
+}
+
+.leaderboard li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}

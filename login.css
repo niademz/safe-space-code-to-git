@@ -1,0 +1,46 @@
+ body {
+   background-image: url('safe space media/website layout.png');
+   background-size: cover;
+   /* This ensures the image covers the entire background */
+   background-repeat: no-repeat;
+   /* Prevent the image from repeating */
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   color: black;
+ }
+
+ h1,
+ .welcome {
+   font-family: "Arial", sans-serif;
+   text-align: center;
+   color: black
+ }
+
+ button {
+   display: block;
+   margin-top: 10px;
+   padding: 8px;
+   background-color: #4f5254;
+   color: white;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+ }
+
+ input[type="text"] {
+   width: 40%;
+   padding: 8px;
+   margin-top: 10px;
+   border: 1px solid #ccc;
+   border-radius: 3px;
+ }
+
+/* css gradient*/
+.gradient-text {
+  background-image: linear-gradient(to right, #ff00cc, #3333ff);
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent;
+  font-size: 36px;
+}
