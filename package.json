@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@netlify/functions": "^2.5.1",
     "@supabase/supabase-js": "^2.33.1",
     "app": "^0.1.0",
     "bcrypt": "^5.1.1",

@@ -3,7 +3,10 @@
 body {
   background-image: url("safe space media/website layout.png");
   background-size: cover;
+  height: 90%;
+  width: 90%;
 }
+
 
 html {
   height: 100%;
