@@ -1,17 +1,18 @@
-// Docs on event and context https://docs.netlify.com/functions/build/#code-your-function-2
-const handler = async (event) => {
-  try {
-    const subject = event.queryStringParameters.name || 'World'
-    return {
-      statusCode: 200,
-      body: JSON.stringify({ message: `Hello ${subject}` }),
-      // // more keys you can return:
-      // headers: { "headerName": "headerValue", ... },
-      // isBase64Encoded: true,
-    }
-  } catch (error) {
-    return { statusCode: 500, body: error.toString() }
-  }
-}
+// Replace with your socket.io implementation, e.g., using the socket.io library
 
-module.exports = { handler }
+const io = require('socket.io')();
+
+io.on('connection', (socket) => {
+  // Handle socket events, e.g., joining rooms, receiving messages, etc.
+  // ... (your socket logic)
+});
+
+export function handler(event) {
+  // Handle potential HTTP requests related to socket management (optional)
+  // ... (your HTTP logic)
+
+  return {
+    statusCode: 200,
+    body: 'Socket server is running',
+  };
+}
