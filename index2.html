@@ -1,0 +1,41 @@
+<!-- this is frontend UI -->
+<!-- changed this from index to login -->
+<!-- this is just to add a login page for the p. What is the first page people go to? the login is the first page *** -->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Signing In</title>
+  <link href="login.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+  <div><h1 class = "gradient-text"><b>Welcome To Safe Space</b></h1></div>
+  <p>
+    <center>You're back!</center>
+  </p>
+  <div class="loginInput">
+    <center>
+      <form id="loginForm">
+        <label for="your_username">Username:</label>
+        <input type="text" id="your_username" name="your_username" required>
+        <br>
+        <label for="your_password">Password:</label>
+        <input type="password" id="your_password" name="your_password" required>
+        <br>
+        <button type="button" onclick="submitForm()">Login</button>
+    </form>
+      <img src="safe space media/Brains - instagram post.png" alt="Talking about it helps graphic" width="500"
+        height="500">
+
+    </center>
+  </div>
+
+
+  <script src="server.js"></script>
+
+</body>
+
+</html>

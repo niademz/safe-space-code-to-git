@@ -136,6 +136,32 @@ app.get('/profile', async (req, res) => {
   }
 });
 
+function submitForm() {
+  var username = document.getElementById('your_username').value;
+  var password = document.getElementById('your_password').value;
+
+  var formData = new FormData();
+  formData.append('Username', username);
+  formData.append('Password', password);
+
+  fetch('http://localhost:3000/login', {
+      method: 'POST',
+      body: formData
+  })
+  .then(response => {
+      if (!response.ok) {
+          throw new Error('Error...');
+      }
+      return response.json();
+  })
+  .then(data => {
+      console.log(data);
+  })
+  .catch(error => {
+      console.error('Error...', error);
+  });
+}
+
 // Start the server
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
