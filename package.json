@@ -1,8 +1,9 @@
 {
   "dependencies": {
     "@netlify/functions": "^2.5.1",
-    "@supabase/supabase-js": "^2.39.6",
+    "@supabase/supabase-js": "^2.39.7",
     "app": "^0.1.0",
+    "aws-cli": "^0.0.2",
     "bcrypt": "^5.1.1",
     "browserify": "^17.0.0",
     "connect-pg-simple": "^9.0.0",
@@ -22,7 +23,8 @@
     "session": "^0.1.0",
     "socket.io": "^4.7.4",
     "socket.io-client": "^4.7.4",
-    "websocket": "^1.0.34"
+    "websocket": "^1.0.34",
+    "ws": "^8.16.0"
   },
   "scripts": {
     "start": "node server1.js"
