@@ -14,7 +14,7 @@
  /*font-family: URW Chancery L, cursive;*/
 
  h1 {
-  font-family: "Abril Fatface";
+  font-family: "Patrick Hand", cursive;
    text-align: center;
    color: black;
  }
@@ -80,7 +80,7 @@
   flex: 0 0 100%;
   text-align: center;
   font-size: 20px;
-  font-family: "Abril Fatface";
+  font-family: "Patrick Hand", cursive;
 }
 
 /* Adjustments for smaller screens */
@@ -123,7 +123,7 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  font-family: "Abril Fatface";
+  font-family: "Patrick Hand", cursive;
  }
  
  /* Change the color of links on hover */
